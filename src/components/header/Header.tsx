@@ -4,13 +4,15 @@ import { Link } from 'react-router-dom';
 import './Header.css';
 
 const Header = () => (
-  <div>
-    <p>HEADER</p>
-    <ul>
-      <li><Link to="/">APP</Link></li>
-      <li><Link to="/404">NOT FOUND</Link></li>
-    </ul>
-  </div>
+  <header>
+    <nav>
+      <ul>
+        <li><Link to="/">Home</Link></li>
+        <li><Link to="/hello">Hello</Link></li>
+        <li><Link to="/form">Form</Link></li>
+      </ul>
+    </nav>
+  </header>
 );
 
 export default Header;
